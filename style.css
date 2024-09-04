@@ -1,0 +1,91 @@
+*{
+    background-color: #fff1f3a2;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+#foto{
+    margin-left: 540px;
+}
+#textotopo{
+    margin-left: 60px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(54, 42, 27);
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#texto {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(54, 42, 27);
+}
+#imagem{
+    margin-left: 600px;
+}
+#info {
+    text-align: center;
+    font-size: 25px;
+}
+#textoinfo{
+    font-size: 25px;
+}
+#textoform{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: antiquewhite;
+    border: 0px;
+    margin: 15px 550px ;
+    
+}
+textarea{
+    background-color: antiquewhite;
+    border: 0px;
+    border-radius: 5px;
+    margin: 15px 610px ;
+}
+select{
+    background-color: antiquewhite;
+    border: 0px;
+    border-radius: 5px;
+    margin: 15px 610px ;
+    width: 200px;
+}
+.pergunta{
+    text-align: center;
+    margin-left: 500px;
+    font-size: 20px;
+}
+button{
+    width:150px;
+    height: 40px;
+    margin-left: 640px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    background-color: rgb(234, 178, 195);
+    margin-bottom: 50px;
+}
+button:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: rgba(207, 113, 113, 0.521);
+    color: antiquewhite;
+}
+h3{
+    text-align: center;
+}
+#florzinhaa{
+    margin-left: 1100px;
+}
