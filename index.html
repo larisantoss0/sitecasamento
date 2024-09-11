@@ -14,42 +14,39 @@
 </head>
 <body>
     <!-- Parte das informações-->
-        <img id="foto" src="./fotos/flor.png" alt="Erro"> 
-    <h1 id="textotopo">
-     Larissa & Felipe  </h1>
-    <p id="texto"> Vamos fazer um jantar só para os íntimos, pra comemorar nossa união e 
+     <div class="alinhamento">
+    <p id="texto"> Vamos fazer um jantar só para os mais próximos, pra comemorar nossa união e 
      gostariamos muito de ter sua presença! </p>
     <p id="info">
-     23 de novembro, às 17:00 horas <br>
+      Sábado: 23 de novembro, às 17:00 horas <br>
      Rua Doutor Laérte Setúbal, 142- Vila Suzana </p> <br> <br>
-    
+    </div>
 
     <!-- Parte do formulário -->
-   <div id="form">
-    <label class="pergunta"> Vai poder ir? Preenche o formulário pra confirmar sua presença: </label>
+   <div class="alinhamento" id="form">
+    <label> Vai poder ir? Preenche o formulário pra confirmar sua presença: </label>
     <form action="https://formspree.io/f/mpwandea" method="post">
 
-    <input type="text" placeholder="Nome" name="Nome" required>
+    <input class="docs" type="text" placeholder="Nome" name="Nome" required>
 
-    <input type="number" placeholder="Número" name="Numero" required> <br>
+    <input class="docs" type="number" placeholder="Número" name="Numero" required> <br>
 
-    <label class="pergunta"> Vai levar acompanhante? Coloca o(s) nome(s) abaixo: </label> <br>
-    <textarea name="message" rows="4"></textarea> <br>
+    <label> Vai levar acompanhante? Coloca o(s) nome(s) abaixo: </label> <br>
+    <textarea class="docs" name="message" rows="4"></textarea> <br>
 
-    <label class="pergunta"> Vai levar alguma criança? </label> <br>
-     <select name="message">
+    <label> Vai levar alguma criança? </label> <br>
+     <select name="message" class="docs">
         <option> Não</option>
         <option> Sim, 1 </option>
         <option> Sim, 2 </option>
         <option> Sim, 3 </option>
         <option> Sim, 4 ou mais</option>
-     </select> 
-    <button type="submit"> Confirme </button>
+     </select> <br>
+    <button type="submit" class="docs"> Confirme </button>
     </form>
    </div>
-  <h3> Dúvidas? Tire elas no nosso <a target="_blank" href="https://faqlarissaefelipe.netlify.app/"> Faq </a> </h3>
-   <div id="florzinhaa">
-    <img src="./fotos/florzinha.png" alt="Erro">
+   <div class="alinhamento">
+  <h3 class="alinhamento"> Dúvidas? Tire elas no nosso <a target="_blank" href="https://faqlarissaefelipe.netlify.app/"> Faq </a> </h3>
    </div>
 </body>
 </html>
